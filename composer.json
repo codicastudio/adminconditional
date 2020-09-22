@@ -1,0 +1,38 @@
+{
+    "name": "codicastudio/adminconditional",
+    "description": "A random Codica Studio package.",
+    "keywords": [
+        ""
+    ],
+    "homepage": "https://github.com/codicastudio/adminconditional",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael J Brown",
+            "email": "mbrown@codicastudio.com",
+            "homepage": "https://codicastudio.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalCreative\\ConditionalContainer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DigitalCreative\\ConditionalContainer\\ConditionalContainerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
