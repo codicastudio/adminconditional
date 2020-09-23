@@ -1,10 +1,10 @@
 {
-    "name": "codicastudio/adminconditional",
+    "name": "codica-studio/adminconditional",
     "description": "A random Codica Studio package.",
     "keywords": [
         ""
     ],
-    "homepage": "https://github.com/codicastudio/adminconditional",
+    "homepage": "https://github.com/codica-studio/adminconditional",
     "license": "MIT",
     "authors": [
         {
